@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/sign.css"/>
+	    <script src="js/test.js"></script>
+	    <title>注册知之</title>
+	</head>
+	<body>
+		<div class="programName">
+			<div class="title">
+				<p><span>知之</span>线上考试系统</p>
+			</div>
+			<div class="button">
+				<button><a href="index.html">登录</a></button>
+				<button><a href="sign.html">注册</a></button>
+			</div>
+		</div>
+		<div class="login">
+			<div class="center">
+				<div id="wrong">
+					<p>抱歉，你输入的学子卡账号不存在，请检查后<span>重新输入</span>或<span>注册</span></p>
+				</div>
+				<form action="" method="post">
+					<input id="sNumber" type="text" placeholder="请输入学子卡账号">
+					<input id="sPass" type="password" placeholder="请输入学子卡密码">
+					<input id="tel" type="text" placeholder="请绑定11位电话号码" onblur="testTel()">
+					<input id="pass" type="password" placeholder="请设置8-16位密码,允许数字和字母" onblur="testPass()">
+					<input id="login" type="submit" value=""/>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>

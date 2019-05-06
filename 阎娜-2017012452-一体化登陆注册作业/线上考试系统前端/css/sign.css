@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: 630px;
+	font-size: 10px;
+	font-size: 1rem;
+	
+	}
+.programName{
+	width: 100%;
+	height: 10%;
+}
+.title{
+	width: 80%;
+	height: 80%;
+	padding-top: 1.5%;
+	/* line-height: 100%; */
+	margin: 0px auto;
+
+}
+.title p{
+	font-size: 1.8rem;
+	font-weight: 800;
+	font-family: "楷体";
+	
+}
+.title span{
+	font-size: 2.5rem;
+	color: cornflowerblue;
+}
+.button{
+	width: 20%;
+	height: 8%;
+	position: absolute;
+	top: 0%;
+	left: 72%;
+}
+.button button{
+	width: 43%;
+	height: 80%;
+	margin-right: 3%;
+	border: 1px solid darkgray;
+	border-radius: 10%;
+	background-color: #6495ED;	
+}
+.button a{
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+}
+.login{
+	width: 100%;
+	height: 90%;
+	
+}
+.center{
+	margin: 0px auto;
+	width: 80%;
+	height: 100%;
+	position: relative;
+	background-image: url(../img/sign/注册背景图.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	}
+.center input{
+	display: block;
+	position: absolute;
+	left: 65%;
+	width:20% ;
+	height:7% ;
+	border: 0px;
+	background-color: rgba(0,0,0,0);
+	
+}
+#sNumber{
+	top: 31%;
+}
+#sPass{
+	top: 40%;
+}
+#tel{
+	top: 49%;
+}
+#pass{
+	top: 58%;
+}
+#login{
+	width: 18%;
+	left: 63%;
+	top: 74%;
+	/* background-color: rgba(0,0,0,0); */
+}
+#wrong{
+	visibility: hidden;
+	position: absolute;
+	left: 56%;
+	top: 26%;
+	max-width: 33%;
+	font-size: 0.8rem;
+	color: red;
+	
+}
+.wrong span{
+	color: #6495ED;
+}
